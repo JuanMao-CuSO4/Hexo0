@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 引入 Vditor CSS -->
+  <link rel="stylesheet" href="vditor/dist/index.css"> 
+</head>
+
+<body>
+  <!-- Vditor 渲染容器 -->
+  <div id="vditor"></div>
+
+  <!-- 引入 Vditor JS -->
+  <script src="vditor/dist/index.js"></script>
+
+  <script>
+    // 获取容器元素
+    const el = document.getElementById('vditor')
+    
+    // 初始化 Vditor
+    const vditor = new Vditor(el, {
+      // 配置选项 
+    })
+  </script>
+</body>
+</html>
