@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://yoursite.com/
+url: http://www.tomandjerrychase-consciouscourse.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -117,6 +117,7 @@ markdown:
     - markdown-it-todo_list
     - markdown-it-highlightjs
     - markdown-it-katex
+    - markdown-it-container
   engine: markdown-it
 
 # Extensions
@@ -128,3 +129,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+math:
+  engine: 'mathjax'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
