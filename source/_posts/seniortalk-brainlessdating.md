@@ -4,7 +4,7 @@ date: 2023.10.21
 auto_excerpt:
   enable: true
   length: 150
-categories: 猫鼠意识养成课
+categories: 高中杂谈
 updated: 2023.10.21
 tag: [高中杂谈]
 keywords: 恋爱脑
