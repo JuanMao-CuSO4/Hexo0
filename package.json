@@ -30,7 +30,8 @@
     "hexo-theme-butterfly": "^4.10.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
-    "vditor": "^3.9.6"
+    "vditor": "^3.9.6",
+    "waline": "^0.0.1"
   },
   "main": "index.js",
   "author": "",
