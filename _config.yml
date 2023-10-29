@@ -129,7 +129,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:gatieme/gatieme.github.io.git
+  branch: ph-pages
 
 math:
   engine: 'mathjax'
