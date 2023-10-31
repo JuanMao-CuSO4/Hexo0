@@ -3,18 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 毛绒之家
-subtitle: '卷毛叔’s官网'
+title: Hexo
+subtitle: ''
 description: ''
 keywords:
-author: 卷毛叔
-language: zh-CN
+author: John Doe
+language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://tomandjerrychase-consciouscourse.cn
-root: /
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,10 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -98,80 +94,12 @@ include:
 exclude:
 ignore:
 
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-deflist
-    - markdown-it-emoji
-    - markdown-it-mark
-    - markdown-it-todo_list
-    - markdown-it-highlightjs
-    - markdown-it-katex
-    - markdown-it-container
-  engine: markdown-it
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:gatieme/gatieme.github.io.git
-  branch: main
-
-math:
-  engine: 'mathjax'
-  mathjax:
-    src: custom_mathjax_source
-    config:
-      # MathJax config
-
-# hexo-neat
-# 博文压缩
-neat_enable: true
-# 压缩html
-neat_html:
-  enable: true
-  exclude:
-# 压缩css  
-neat_css:
-  enable: true
-  exclude:
-    - '**/*.min.css'
-# 压缩js
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '**/*.min.js'
-    - '**/jquery.fancybox.pack.js'
-    - '**/index.js'  
-
-  waline:
-    enable: true #是否开启
-    serverURL: http://recommend.tomandjerrychase-consciouscourse.cn/ # Waline 服务端地址，这里填Railway里给的那个域名
-    placeholder: 要文明评论哦, 不然会被打屁屁 # #评论框的默认文字
-    avatar: mm # 头像风格
-    meta: [nick, mail, link] # 自定义评论框上面的三个输入框的内容
-    pageSize: 10 # 评论数量多少时显示分页
-    lang: zh-cn # 语言, 可选值: en, zh-cn
-    # Warning: 不要同时启用 `waline.visitor` 以及 `leancloud_visitors`.
-    visitor: true # 文章阅读统计
-    comment_count: true # 如果为 false , 评论数量只会在当前评论页面显示, 主页则不显示
-    requiredFields: [nick,mail] # 设置用户评论时必填的信息，[nick,mail]: [nick] | [nick, mail] 
+  type: ''
