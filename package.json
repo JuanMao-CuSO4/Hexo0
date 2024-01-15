@@ -38,6 +38,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "remixicon": "^3.5.0"
+    "remixicon": "^4.1.0"
   }
 }
